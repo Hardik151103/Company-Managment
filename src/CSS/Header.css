@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(66, 66, 115);
+    /* width: calc(100vw - 250px); */
+    color: white;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    margin-left: auto;
+  }

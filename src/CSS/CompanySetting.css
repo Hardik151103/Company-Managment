@@ -1,0 +1,65 @@
+.companySetting img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 2px lightgray;
+}
+
+.myInput {
+    width: 100%;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 0 5px;
+    background-color: rgba(177, 190, 233, 0.783);
+    ;
+}
+
+.label {
+    font-weight: 500;
+}
+
+/* input {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+} */
+
+input:hover {
+    border-color: #5500ff;
+}
+
+input:focus {
+    border-color: #1500ff;
+    box-shadow: 0 0 8px rgba(47, 0, 255, 0.8);
+    outline: none;
+}
+
+textarea:hover {
+    border-color: #5500ff;
+}
+
+textarea:focus {
+    border-color: #1500ff;
+    box-shadow: 0 0 8px rgba(47, 0, 255, 0.8);
+    outline: none;
+}
+
+.p-datepicker-group-container {
+    background-color: rgba(132, 113, 217, 0.8);
+}
+
+.p-calendar-w-btn-right .p-inputtext {
+    width: 100%;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 0 5px;
+    background-color: rgba(177, 190, 233, 0.783);
+    ;
+}
+
+.p-datepicker-trigger {
+    background-color: rgba(177, 190, 233, 0.783);
+    border-radius: 5px;
+    border: 1px solid gray;
+    
+}

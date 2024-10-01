@@ -1,0 +1,25 @@
+.bg-login {
+    background-color: rgba(155, 177, 249, 0.783);
+  }
+  
+  .login-btn,
+  .register-btn {
+    background-color: #0d00ff !important;
+    font-weight: bold;
+  }
+  
+  input {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:hover {
+    border-color: #5500ff;
+  }
+  
+  input:focus {
+    border-color: #1500ff;
+    box-shadow: 0 0 8px rgba(47, 0, 255, 0.8);
+    outline: none;
+  }
+  
+  
